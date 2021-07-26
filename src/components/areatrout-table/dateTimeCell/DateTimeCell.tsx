@@ -1,6 +1,6 @@
 import React from 'react';
 import { Grid } from '@material-ui/core';
-import { transformToDateTime } from '../../utils/utils';
+import { transformToDateTime } from '../../../utils/utils';
 
 function DateTimeCell(props: {
   date: string;

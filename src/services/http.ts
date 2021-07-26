@@ -3,7 +3,7 @@ import Toasters from '../components/popUp/PopUp';
 import Error from '../models/Error';
 
 const client = axios.create({
-  baseURL: 'http://localhost:8080',
+  baseURL: process.env.API_BASE_URL,
 });
 
 const processError = (error: Error, message?: string) => {

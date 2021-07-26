@@ -1,15 +1,15 @@
 import React, { useState, useEffect } from 'react';
 import { Grid } from '@material-ui/core';
 import UserService from '../services/user.service';
-import AdminUser from '../models/AdminUser';
+import AdminUser from '../models/users/AdminUser';
 import AreatroutTable from '../components/areatrout-table/areatrout-table';
 import DeleteUser from './deleteUser/DeleteUser';
 import EditRole from './editRole/EditRole';
 import { adminRole, organizerRole } from '../constants';
-import BlockUser from './blockUser/BlockUser';
+import BlockUser from './users/blockUser/BlockUser';
 import useStyles from './adminUsers.style';
 import LoaderFullScreen from '../components/loader/LoaderFullScreen';
-import DateTimeCell from '../components/dateTimeCell/DateTimeCell';
+import DateTimeCell from '../components/areatrout-table/dateTimeCell/DateTimeCell';
 import { StorageService } from '../utils/utils';
 
 export default function AdminUsers() {

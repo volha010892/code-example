@@ -4,7 +4,7 @@ import 'jest-canvas-mock';
 import {
   render, fireEvent, cleanup, screen, waitFor
 } from '@testing-library/react';
-import UserService from '../../../../../services/user.service';
+import UserService from '../../../../services/user.service';
 import BlockUser from '../BlockUser';
 import mockData from '../mocks/mock';
 

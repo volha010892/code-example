@@ -1,6 +1,6 @@
-import AdminUser from '../models/AdminUser';
-import EditUserRole from '../models/EditUserRole';
-import BlockUser from '../models/BlockUser';
+import AdminUser from '../models/users/AdminUser';
+import EditUserRole from '../models/users/EditUserRole';
+import BlockUser from '../models/users/BlockUser';
 import { client, processError } from './http';
 
 const url = '/api/Users';

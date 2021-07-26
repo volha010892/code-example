@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import { Button, TextField, Grid } from '@material-ui/core';
 import { Controller, useForm } from 'react-hook-form';
-import UserService from '../../services/user.service';
-import BlockUser from '../../models/BlockUser';
-import Toasters from '../../components/popUp/PopUp';
+import UserService from '../../../../services/user.service';
+import BlockUser from '../../../../models/users/BlockUser';
+import Toasters from '../../../../components/popUp/PopUp';
 import useStyles from './BlockUser.style';
-import Loader from '../../components/loader/Loader';
-import { EmptyVoidFunction } from '../../utils/types';
+import Loader from '../../../../components/loader/Loader';
+import { EmptyVoidFunction } from '../../../../utils/types';
 
 const defaultProps = {
   handleClose: () => {},

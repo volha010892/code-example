@@ -1,5 +1,5 @@
 import moment from 'moment';
-import AuthorizationUser from '../models/AuthorizationUser';
+import AuthorizationUser from '../models/users/AuthorizationUser';
 import { USER_STORAGE_KEY } from '../constants';
 import 'moment/locale/ru';
 
